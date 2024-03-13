@@ -51,6 +51,10 @@ ul li.checked {
   text-decoration: line-through;
 }
 
+button {
+  border: none;
+}
+
 .close {
   position: absolute;
   right: 0;

@@ -52,7 +52,7 @@ function newElement() {
 
   for (let i = 0; i < close.length; i++) {
     close[i].onclick = function () {
-      var div = this.parentElement
+      let div = this.parentElement
       div.style.display = 'none'
     }
   }
